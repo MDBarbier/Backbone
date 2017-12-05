@@ -1,0 +1,15 @@
+{
+  "name": "BackboneJSDemo2",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "v1.3.0"
+  }
+}

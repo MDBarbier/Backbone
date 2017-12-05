@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Backbone Demo</title>
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
+    <script src="~/bower_components/underscore/underscore.js"></script>
+    <script src="~/bower_components/backbone/backbone.js"></script>
+
+</head>
+<body>
+
+    <h2>BackboneJS Demo</h2>
+
+    <div id="container"></div>
+
+
+   <div id="errorDiv" style="display:none;">ERROR</div>
+
+    <p>Enter the id of the book to look up (1-4):</p>
+    <input type="text" id="entry" />
+    <button id="submit" onclick="process()">Submit</button>
+
+
+    <script src="~/Scripts/backbone-code.js"></script>
+
+</body>
+</html>
